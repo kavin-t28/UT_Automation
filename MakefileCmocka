@@ -1,0 +1,4 @@
+COMMON_DIR = .
+MAKE_DIR   = $(COMMON_DIR)/src/mk
+
+include $(MAKE_DIR)/cmocka.mk
